@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/addGuides.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="banner">
+      <nav class="navigation" id="panelOne">
+        <a href="./getEvents.html"><span id="home">Get Events</span></a>
+        <a href="./addEvents.html"><span id="about">Add Events</span></a>
+        <a href="./updateEvents.html"><span id="gallery">Update Events</span></a>
+        <a href="./deleteEvents.html"><span id="review">Delete Events</span></a>
+        <a href="./EventsDashboard.html"><span id="contact">Dashboard</span></a>
+      </nav>
+    </header>
+    <section>
+    <br>
+    <h1>Update Event</h1>
+    <br>
+<form id="company-form">
+        <div class="form-group">
+          <label for="company-name">Name:</label>
+          <input type="text" id="company-name" name="company-name" required>
+        </div>
+        <div class="form-group">
+          <label for="company-description">Description</label>
+          <textarea id="company-description" name="company-description" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="company-email">Category ID</label>
+          <input type="email" id="company-email" name="company-email" required>
+        </div>
+        <div class="form-group">
+          <label for="company-email">Destination</label>
+          <input type="email" id="company-email" name="company-email" required>
+        </div>
+        <div class="form-group">
+          <label for="company-email">Date from</label>
+          <input type="email" id="company-email" name="company-email" required>
+        </div>
+        <div class="form-group">
+            <label for="company-email">Date to</label>
+            <input type="email" id="company-email" name="company-email" required>
+          </div>
+          <div class="form-group">
+            <label for="company-email">Cost</label>
+            <input type="email" id="company-email" name="company-email" required>
+          </div>
+        <button type="submit">Update</button>
+      </form>
+</section>
+
+    <script src="../js/addComapnies.js"></script>
+</body>
+</html>

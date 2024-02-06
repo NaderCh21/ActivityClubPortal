@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/deleteGuides.css"/>
+    <link
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+    />
+</head>
+<body>
+    <header class="banner">
+        <nav class="navigation" id="panelOne">
+          <a href="./getMembers.html"><span id="home">Get Members</span></a>
+          <a href="./addMembers.html"><span id="about">Add Members</span></a>
+          <a href="./updateMembers.html">
+            <span id="gallery">Update Members</span>
+          </a>
+          <a href="./deleteMembers.html"><span id="review">Delete Members</span></a>
+          <a href="./MembersDashboard.html">
+            <span id="contact">Dashboard</span>
+          </a>
+        </nav>
+      </header>
+<section>
+    <br/>
+    <h2>Delete Member</h2>
+    <br/>
+    <form id="delete-company-form">
+        <div class="form-group">
+            <label for="company-id">Member ID:</label>
+            <input type="text" id="company-id" name="company-id" required>
+        </div>
+        <br>
+        <button type="submit">Delete</button>
+    </form>
+    <p id="result-message"></p> 
+</section>
+<script src="../js/deleteMembers.js"></script>
+</body>
+</html>

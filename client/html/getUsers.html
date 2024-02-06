@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/getUsers.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+</head>
+<body>
+    <header class="banner">
+        <nav class="navigation" id="panelOne">
+            <a href="./getUsers.html"><span id="home">Get Users</span></a>
+            <a href="./addUsers.html"><span id="about">Add Users</span></a>
+            <a href="./updateUsers.html"><span id="gallery">Update Users</span></a>
+            <a href="./deleteUsers.html"><span id="review">Delete Users</span></a>
+            <a href="./UsersDashboard.html"><span id="contact">Dashboard</span></a>
+        </nav>
+    </header>
+    <section>
+        <br />
+        <button id="fetch-users" onclick="fetchUsers()">Fetch Users</button>
+        <table id="user-table">
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>Name</th>
+                    <th>DoB</th>
+                    <th>Gender</th>
+                    <th>Email Address</th>
+                    <th>Password</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody id="user-table-body"></tbody>
+        </table>
+    </section>
+    <script src="../js/getUsers.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/addUsers.css" />
+    <link
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous"
+    />
+</head>
+<body>
+<header class="banner">
+    <nav class="navigation" id="panelOne">
+        <a href="./getMembers.html"><span id="home">Get Members</span></a>
+        <a href="./addMembers.html"><span id="about">Add Members</span></a>
+        <a href="./updateMembers.html"><span id="gallery">Update Members</span></a>
+        <a href="./deleteMembers.html"><span id="review">Delete Members</span></a>
+        <a href="./MembersDashboard.html"><span id="contact">Dashboard</span></a>
+    </nav>
+</header>
+<section>
+    <br>
+    <h1>Update Member</h1>
+    <br>
+    <form id="company-form">
+        <div class="form-group">
+            <label for="member-id">Member ID:</label>
+            <input type="text" id="member-id" name="member-id" required>
+        </div>
+        <div class="form-group">
+            <label for="member-name">Name:</label>
+            <input type="text" id="member-name" name="member-name" required>
+        </div>
+        <div class="form-group">
+            <label for="member-email">Email Address:</label>
+            <textarea id="member-email" name="member-email" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="member-password">Password:</label>
+            <input type="password" id="member-password" name="member-password" required>
+        </div>
+        <div class="form-group">
+            <label for="member-dob">Date of Birth:</label>
+            <input type="date" id="member-dob" name="member-dob" required>
+        </div>
+        <div class="form-group">
+            <label for="member-gender">Gender:</label>
+            <input type="text" id="member-gender" name="member-gender" required>
+        </div>
+        <div class="form-group">
+            <label for="member-joining-date">Joining Date:</label>
+            <input type="date" id="member-joining-date" name="member-joining-date" required>
+        </div>
+        <div class="form-group">
+            <label for="member-mobile-number">Mobile number:</label>
+            <input type="text" id="member-mobile-number" name="member-mobile-number" required>
+        </div>
+        <div class="form-group">
+            <label for="member-emergency-number">Emergency number:</label>
+            <input type="text" id="member-emergency-number" name="member-emergency-number" required>
+        </div>
+        <div class="form-group">
+            <label for="member-photo">Photo:</label>
+            <input type="text" id="member-photo" name="member-photo" required>
+        </div>
+        <div class="form-group">
+            <label for="member-profession">Profession:</label>
+            <input type="text" id="member-profession" name="member-profession" required>
+        </div>
+        <div class="form-group">
+            <label for="member-nationality">Nationality:</label>
+            <input type="text" id="member-nationality" name="member-nationality" required>
+        </div>
+        <button type="submit">Update</button>
+    </form>
+</section>
+
+<script src="../js/updateMembers.js"></script>
+</body>
+</html>

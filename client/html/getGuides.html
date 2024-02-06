@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/getGuides.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="banner">
+      <nav class="navigation" id="panelOne">
+        <a href="./getGuides.html"><span id="home">Get Guides</span></a>
+        <a href="./addGuides.html"><span id="about">Add Guides</span></a>
+        <a href="./updateGuides.html">
+          <span id="gallery">Update Guides</span>
+        </a>
+        <a href="./deleteGuides.html"><span id="review">Delete Guides</span></a>
+        <a href="./GuidesDashboard.html">
+          <span id="contact">Dashboard</span>
+        </a>
+      </nav>
+    </header>
+    <section>
+      <br />
+
+      <button id="fetch-guides">Fetch Guides</button>
+
+      <table id="company-table">
+        <thead>
+          <tr id="table-row">
+            <th id="col-1">Guide ID</th>
+            <th id="col-2">Name</th>
+            <th id="col-4">Email Address</th>
+            <th id="col-3">Password</th>
+            <th id="col-5">DoB</th>
+            <th id="col-5">Joining Date</th>
+          </tr>
+        </thead>
+        <tbody id="company-table-body"></tbody>
+      </table>
+    </section>
+    <script src="../js/getGuides.js"></script>
+  </body>
+</html>

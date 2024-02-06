@@ -1,0 +1,6 @@
+@ActivityClubPortal_HostAddress = http://localhost:5294
+
+GET {{ActivityClubPortal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

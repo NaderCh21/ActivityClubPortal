@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/addGuides.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+</head>
+<body>
+    <header class="banner">
+        <nav class="navigation" id="panelOne">
+            <a href="./getGuides.html"><span id="home">Get Guides</span></a>
+            <a href="./addGuides.html"><span id="about">Add Guides</span></a>
+            <a href="./updateGuides.html"><span id="gallery">Update Guides</span></a>
+            <a href="./deleteGuides.html"><span id="review">Delete Guides</span></a>
+            <a href="./GuidesDashboard.html"><span id="contact">Dashboard</span></a>
+        </nav>
+    </header>
+    <section>
+        <br />
+        <h1>Add Guide</h1>
+        <br />
+        <form id="guide-form">
+            <div class="form-group">
+                <label for="guide-name">Name:</label>
+                <input type="text" id="guide-name" name="guide-name" required>
+            </div>
+            <div class="form-group">
+                <label for="guide-email">Email Address:</label>
+                <textarea id="guide-email" name="guide-email" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="guide-password">Password</label>
+                <input type="password" id="guide-password" name="guide-password" required>
+            </div>
+            <div class="form-group">
+                <label for="guide-dob">DoB</label>
+                <input type="date" id="guide-dob" name="guide-dob" required>
+            </div>
+            <div class="form-group">
+                <label for="guide-joining-date">Joining Date</label>
+                <input type="date" id="guide-joining-date" name="guide-joining-date" required>
+            </div>
+            <button type="submit">Create</button>
+        </form>
+    </section>
+    <script src="../js/addGuides.js"></script>
+</body>
+</html>

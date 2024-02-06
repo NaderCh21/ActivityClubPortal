@@ -1,0 +1,56 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.events-list,
+.event-details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.events-list h2,
+.event-details h2,
+.event-info h3,
+.join-option label,
+.event-images h3 {
+  color: #333;
+}
+
+.events-list ul,
+.event-info,
+.join-option,
+.event-images {
+  margin-top: 10px;
+}
+
+/* Style the checkbox */
+.join-option input {
+  margin-left: 5px;
+}
+
+/* Add more styles as needed */

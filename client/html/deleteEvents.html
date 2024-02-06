@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/deleteGuides.css"/>
+    <link
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+    />
+</head>
+<body>
+    <header class="banner">
+        <nav class="navigation" id="panelOne">
+          <a href="./getEvents.html"><span id="home">Get Events</span></a>
+          <a href="./addEvents.html"><span id="about">Add Events</span></a>
+          <a href="./updateEvents.html">
+            <span id="gallery">Update Events</span>
+          </a>
+          <a href="./deleteEvents.html"><span id="review">Delete Events</span></a>
+          <a href="./EventsDashboard.html">
+            <span id="contact">Dashboard</span>
+          </a>
+        </nav>
+      </header>
+<section>
+    <br/>
+    <h2>Delete Event</h2>
+    <br/>
+    <form id="delete-company-form">
+        <div class="form-group">
+            <label for="company-id">Event ID:</label>
+            <input type="text" id="company-id" name="company-id" required>
+        </div>
+        <br>
+        <button type="submit">Delete</button>
+    </form>
+</section>
+<script src="../js/deleteEvents.js"></script>
+</body>
+</html>

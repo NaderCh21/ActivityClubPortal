@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/getUsers.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="banner">
+        <nav class="navigation" id="panelOne">
+            <a href="./getMembers.html"><span id="home">Get Members</span></a>
+            <a href="./addMembers.html"><span id="about">Add Members</span></a>
+            <a href="./updateMembers.html"><span id="gallery">Update Members</span></a>
+            <a href="./deleteMembers.html"><span id="review">Delete Members</span></a>
+            <a href="./MembersDashboard.html"><span id="contact">Dashboard</span></a>
+          </nav>
+    </header>
+    <section>
+      <br />
+
+      <button id="fetch-companies">Fetch Members</button>
+
+      <table id="company-table">
+        <thead>
+          <tr id="table-row">
+            <th id="col-1">Member ID</th>
+            <th id="col-2">Name</th>
+            <th id="col-4">Email Address</th>
+            <th id="col-3">Password</th>
+            <th id="col-5">DoB</th>
+            <th id="col-5">Gender</th>
+            <th id="col-4">joining Date</th>
+            <th id="col-3">Mobile number</th>
+            <th id="col-4">Emergency number</th>
+            <th id="col-3">photo</th>
+            <th id="col-4">profession</th>
+            <th id="col-3">nationality</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <script src="../js/getMembers.js"></script>
+  </body>
+</html>

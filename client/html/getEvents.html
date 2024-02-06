@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACP</title>
+    <link rel="stylesheet" type="text/css" href="../css/getUsers.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="banner">
+        <nav class="navigation" id="panelOne">
+            <a href="./getEvents.html"><span id="home">Get Events</span></a>
+            <a href="./addEvents.html"><span id="about">Add Events</span></a>
+            <a href="./updateEvents.html"><span id="gallery">Update Events</span></a>
+            <a href="./deleteEvents.html"><span id="review">Delete Events</span></a>
+            <a href="./EventsDashboard.html"><span id="contact">Dashboard</span></a>
+          </nav>
+    </header>
+    <section>
+      <br />
+
+      <button id="fetch-events">Fetch Events</button>
+
+      <table id="company-table">
+        <thead>
+          <tr id="table-row">
+            <th id="col-1">Event ID</th>
+            <th id="col-2">Name</th>
+            <th id="col-3">Description</th>
+            <th id="col-4">Category ID</th>
+            <th id="col-5">Destination</th>
+            <th id="col-6">Date From</th>
+            <th id="col-7">Date To</th>
+            <th id="col-8">Cost</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <script src="../js/getEvents.js"></script>
+  </body>
+</html>
